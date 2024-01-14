@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#App {
+  height: 100vh;
+  background: #474747;
+  display: grid;
+  grid-template-columns: "Aside" "Main";
+  grid-template-columns: 225px 1fr;
+  grid-template-rows: 1fr auto;
+}
+
+#Aside {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+}
+
+#Aside ul li {
+  list-style: none;
+}
+
+.AppLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.AppLink:hover{
+    background: #474747;
+}
+
+.LinkImage {
+    max-width: 100%;
+}
