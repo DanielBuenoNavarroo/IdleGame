@@ -19,6 +19,9 @@ const Layout = () => {
   return (
     <div id="App">
       <div id="Aside">
+        <div id="Aside-Logo">
+          Idle Game
+        </div>
         <ul>
           {links.map(({ path, label, image }) => (
             <li key={path}>
@@ -30,7 +33,7 @@ const Layout = () => {
           ))}
         </ul>
       </div>
-      <div>
+      <div id="Game">
         <Outlet />
       </div>
     </div>

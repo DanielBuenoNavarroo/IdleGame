@@ -1,6 +1,14 @@
 const Inventory = () => {
   return (
-    <div>Inventory</div>
+    <div className="gamePanel">
+      <div className="top">
+        <img src="chest.svg" alt="Inventario"/>
+        Inventario
+      </div>
+      <div id="shopContent">
+        
+      </div>
+    </div>
   )
 }
 

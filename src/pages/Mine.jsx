@@ -1,6 +1,14 @@
 const Mine = () => {
   return (
-    <div>Mine</div>
+    <div className="gamePanel">
+      <div className="top">
+        <img src="pickaxe.svg" alt="Mina"/>
+        Mina
+      </div>
+      <div id="mineContent">
+        
+      </div>
+    </div>
   )
 }
 

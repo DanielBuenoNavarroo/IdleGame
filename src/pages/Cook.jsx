@@ -1,6 +1,14 @@
 const Cook = () => {
   return (
-    <div>Cook</div>
+    <div className="gamePanel">
+      <div className="top">
+        <img src="cook.svg" alt="Cocina"/>
+        Cocina
+      </div>
+      <div id="cookContent">
+        
+      </div>
+    </div>
   )
 }
 

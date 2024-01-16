@@ -1,6 +1,14 @@
 const Fishing = () => {
   return (
-    <div>Fishing</div>
+    <div className="gamePanel">
+      <div className="top">
+        <img src="fish.svg" alt="Pesca"/>
+        Pesca
+      </div>
+      <div id="fishingContent">
+        
+      </div>
+    </div>
   )
 }
 

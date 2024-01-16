@@ -1,6 +1,14 @@
 const Fire = () => {
   return (
-    <div>Fire</div>
+    <div className="gamePanel">
+      <div className="top">
+        <img src="campfire.svg" alt="Fuego"/>
+        Dominio del fuego
+      </div>
+      <div id="shopContent">
+        
+      </div>
+    </div>
   )
 }
 

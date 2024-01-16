@@ -1,6 +1,14 @@
 const town = () => {
   return (
-    <div>town</div>
+    <div className="gamePanel">
+      <div className="top">
+        <img src="town.svg" alt="Pueblo"/>
+        Pueblo
+      </div>
+      <div id="townContent">
+        
+      </div>
+    </div>
   )
 }
 
